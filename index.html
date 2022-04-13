@@ -197,7 +197,7 @@ function setURL() {
 	var scaleX = +document.getElementById('scaleX').value || 2;
 	var scaleY = +document.getElementById('scaleY').value || scaleX;
 
-	var url = 'http://localhost:3030/?bcid=' + elt.sym + 
+	var url = 'https://barcode-cloudbuild-zys6osrvwa-uc.a.run.app/?bcid=' + elt.sym + 
 				'&text=' + encodeURIComponent(text) +
 				(alttext ? '&alttext=' + encodeURIComponent(alttext) : '') +
 				(options ? '&' + options.replace(/ +/g, '&') : '') +

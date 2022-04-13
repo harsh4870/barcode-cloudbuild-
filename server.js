@@ -57,7 +57,7 @@ for (let i = 2; i < process.argv.length; i++) {
     binds++;
 }
 if (!binds) {
-    server.listen(process.env.PORT || 3030);
+    server.listen(process.env.PORT || 80);
     console.log('listening on *:' + (process.env.PORT || 3030));
 }
 
